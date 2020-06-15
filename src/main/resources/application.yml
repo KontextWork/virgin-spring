@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    open-in-view: false
+    hibernate.ddl-auto: create
+
+  datasource:
+    url: jdbc:mysql://localhost:13306/virgin
+    name: Virgin MySQL Datasource
+    username: virgin
+    password: virgin
