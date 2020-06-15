@@ -8,6 +8,7 @@ import org.springframework.shell.standard.*;
 public class FooCommands
 {
   @ShellMethod("Greets you")
+  @SuppressWarnings("unused")
   public String hello(@ShellOption String name)
   {
     return String.format("Hello %s!", name);
